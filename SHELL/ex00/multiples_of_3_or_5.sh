@@ -8,7 +8,7 @@ multiples_of_3_or_5()
 		if [ $((i%3)) -eq 0 ] || [ $((i%5)) -eq 0 ] ;then
 			sum=$((sum + i));
 		fi
-		i=$((i + 1))
+		i=$((i + 1));
 	done
 }
 
